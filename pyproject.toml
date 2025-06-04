@@ -1,0 +1,16 @@
+[project]
+name = "text-editor"
+version = "0.1.0"
+description = "**TextEditor** é uma simulação de um editor de texto simplificado, no terminal, onde o texto digitado é armazenado como uma lista ligada (linked list) de caracteres. A ideia é emular a experiência de edição caractere por caractere, com funcionalidades como mover o cursor, inserir e apagar letras — exatamente o tipo de operação onde listas ligadas brilham."
+authors = [
+    {name = "Gabriel",email = "gbmsaraujo@gamil.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

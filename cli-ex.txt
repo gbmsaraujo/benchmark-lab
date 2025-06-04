@@ -1,0 +1,35 @@
+$ python main.py
+
+📊 DS Benchmark Lab
+====================
+1. Estrutura 1: Python List
+2. Estrutura 2: Linked List
+
+Escolha as operações para testar:
+[1] Inserção
+[2] Remoção
+[3] Busca
+[4] Todos
+> 4
+
+Informe o número de elementos (ex: 1000, 10000):
+> 10000
+
+Executando benchmarks...
+
+✅ Inserção:
+ - Python List:     0.0182s
+ - Linked List:     0.1243s
+
+✅ Remoção:
+ - Python List:     0.0317s
+ - Linked List:     0.1986s
+
+✅ Busca:
+ - Python List:     0.0009s
+ - Linked List:     0.0084s
+
+----------------------------------
+🏆 Resultado final:
+- Estrutura mais rápida geral: Python List
+- Melhor uso para Linked List: Inserções no início
