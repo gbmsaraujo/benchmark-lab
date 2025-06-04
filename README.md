@@ -2,8 +2,6 @@
 
 **DS Benchmark Lab** é um projeto educacional que compara o desempenho prático entre a lista nativa do Python (`list`) e uma implementação manual de lista ligada (`LinkedList`). O foco é avaliar operações comuns de estruturas lineares com medição de tempo real, usando `time.perf_counter()`.
 
----
-
 ## 🚀 Objetivo
 
 Investigar o custo computacional de operações básicas em listas dinâmicas, como inserção, remoção, busca, leitura e escrita. O projeto foi criado para fins de aprendizado de estruturas de dados e benchmarking em Python.
@@ -13,6 +11,8 @@ A ideia é expandir o projeto para incluir **comparativos entre várias estrutur
 * Fila, Pilha, Deque
 * Hash Table
 * Árvore Binária, Heap, Trie
+
+O plano é evoluir de forma progressiva, começando com comparações **homogêneas** (listas entre si), depois estruturas de **filas**, **mapas** e finalmente **árvores**, sempre com base em problemas equivalentes.
 
 ### ❓ Vale comparar qualquer estrutura?
 
@@ -99,3 +99,4 @@ Sinta-se à vontade para abrir issues ou pull requests com melhorias, novas estr
 ## 🧠 Inspiração
 
 Este projeto foi desenvolvido como parte de estudos sobre estruturas de dados, complexidade algorítmica e boas práticas de benchmarking em Python.
+
